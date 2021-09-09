@@ -21,10 +21,18 @@ public class ButtonXO extends JButton implements ActionListener {
     private static final int PLAYER_X = 1;
     private static final int PLAYER_O = 2;
 
-    // private static final long serialVersionUID = 1L;
-    private static byte currentPlayer = 1; // valeur round?
-    private boolean isGameWon = false; // touch
-    private static boolean isGameOver = false; // fin
+    private static int currentPlayer = (int) (Math.random() * 2 + 1); // TODO reset metoden
+    private boolean isGameWon = false;
+    private static boolean isGameOver = false;
+
+//    public int getPositionX() {
+//        return positionX;
+//    }
+//
+//    public int getPositionY() {
+//        return positionY;
+//    }
+
     private int positionX = 0;
     private int positionY = 0;
     private static byte turnCount = 0; // omgång? tour

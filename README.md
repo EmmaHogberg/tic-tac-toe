@@ -1,3 +1,4 @@
+# Kursen Avanserad Javaprogrammering vecka 1
 Ni ska skapa Tic tac toe, där 2 spelare turas om att skriva in "X" samt "O"  på en rutnät av 3*3 rutor.
 Programmet ska känna av resultaten av spelets gång. Både vinnare samt on det inte finns en vinnare.
 Spelet ska kunnas restartas och återgå till ursprungs läge med en slumpmässig spelares första tur.
